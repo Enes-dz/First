@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Creator</title>
+</head>
+<body>
+<center>
+    <h1>CV Creator Tool Feedback Form</h1>
+    <hr>
+    <form action="/action_page.php" method="POST">
+        
+        <label for="email"><b>Email</b></label>
+        <input type="email" id="email" name="email" required> <br><br>
+        
+        <label for="pass"><b>Password</b></label>
+        <input type="password" id="pass" name="password" required><br><br>
+        
+        <label for="feedback"><i><b>Your Feedback:</b></i></label> <br>
+        <textarea id="feedback" placeholder="Your feedback..." rows="6" cols="70" name="user_feedback"></textarea>
+        <br><br>
+        
+        <label for="marketing"><i>How did you hear about our CV Creator Tool</i></label>
+        <select id="marketing" name="marketing">
+            <option value="Facebook">Facebook</option>
+            <option value="LinkedIn" selected>LinkedIn</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Tiktok">TikTok</option>
+            <option value="Other">Other</option>
+
+        </select>
+    </form>
+</center>
+</body>
+</html>

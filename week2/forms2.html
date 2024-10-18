@@ -6,27 +6,28 @@
 <body>
 <center><h1>Login Form</h1></center>
 <hr>
-<form>
-    <label></label>
-    <input type="radio" id="username" name="login_method" value="username">
+<form action="/action_page.php" method="POST">
+    <center>
+    <p><b>Please Select your Login Method</b></p>
+    <input type="radio" id="username" name="login_method" value="Username">
     <label for="username">Username</label>
-    <input type="radio" id="email" name="login_method" value="email">
+    <input type="radio" id="email" name="login_method" value="Email">
     <label for="email">E-mail</label>
+    <br> <br>
+    <label for="username"><b>Username or Email</b></label>
+    <input type="text" id="username" name="user_email">
+    <br> <br>
+    <label for="pass"><b>Password</b></label>
+    <input type="password" id="pass" name="pass">
+    <br><br>
+    <input type="submit" value="Login">
 
 
-
+</center>
 
 
 
 </form>
-
-
-
-
-
-
-
-
 
 
 
